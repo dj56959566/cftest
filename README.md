@@ -1,7 +1,7 @@
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/dj56959566/cftest/blob/main/photo_2025-10-30_16-03-29.jpg?raw=true)
 
 
-1.把这个和刚刚那个放在一个文件一个文件夹
+A.把这个和刚刚那个放在一个文件一个文件夹
 
 三个文件
 
@@ -24,7 +24,7 @@ chmod +x cfst
 
 
 
-3.安装这些依赖
+B.安装这些依赖
 
 opkg update
 
@@ -33,7 +33,7 @@ opkg install curl jq wget bc -y
 
 
 
-4. 获取Cloudflare API Token
+C. 获取Cloudflare API Token
 
  1 访问 Cloudflare API Tokens (https://dash.cloudflare.com/profile/api-tokens)
    
@@ -51,6 +51,6 @@ opkg install curl jq wget bc -y
 cd opt/cf
  
 
-5.最后  直接运行 bash cf.sh
+D.最后  直接运行 bash cf.sh
 
 ![uAxv8koPchRfSY9Xe4j3lf2XIikKGdxx.webp](https://cdn.nodeimage.com/i/uAxv8koPchRfSY9Xe4j3lf2XIikKGdxx.webp)
