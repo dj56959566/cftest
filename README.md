@@ -1,6 +1,7 @@
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/dj56959566/cftest/blob/main/photo_2025-10-30_16-03-29.jpg?raw=true)
 
-1. # armv7 32bit 旁路由 玩克云 实战 ipv4优先ip自定义邦定域名，成为优选域名。。。。
+
+ # 1.armv7 32bit 旁路由 玩克云 实战 ipv4优先ip自定义邦定域名，成为优选域名每四小时执行一次。
 
 A.把这个和刚刚那个放在一个文件一个文件夹
 
@@ -20,19 +21,11 @@ chmod +x cf.sh
 
 chmod +x cfst
 
-
-
-
-
-
 B.安装这些依赖
 
 opkg update
 
 opkg install curl jq wget bc -y
-
-
-
 
 C. 获取Cloudflare API Token
 
@@ -59,6 +52,6 @@ D.最后  直接运行 bash cf.sh
 
 # ----------------------------------------------------------------------------------------------------------------------------------
 
-2. # armv7 32bit 玩客云旁路由定时扫ipv6上传帮定cf域名，成为优选域名每三小时执行一次。
+# 2.armv7 32bit 玩客云旁路由定时扫ipv6上传帮定cf域名，成为优选域名每三小时执行一次。
 
 文件在ipv6夹中
